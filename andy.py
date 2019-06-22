@@ -20,8 +20,9 @@ class bcolors:
 print bcolors.BOLD+bcolors.WARNING + "MetaSploit Installer Coded by @Andy_Brown"+ bcolors.ENDC
 #Sys req installition
 os.system("reset")
-os.system("pkg install git  ruby ruby-dev make clang autoconf curl wget ncurses-utils libsqlite-dev postgresql postgresql-dev libpcap-dev libffi-dev libxslt-dev pkg-config")
+os.system("pkg install git  ruby ruby-dev make clang autoconf curl wget ncurses-utils libsqlite-dev postgresql postgresql-dev libpcap-dev libffi-dev libxslt-dev pkg-config figlet")
 os.system("reset")
+os.system("figlet Andy Brown")
 print bcolors.BOLD+bcolors.WARNING + "MetaSploit Installer Coded by @Andy_Brown\n"+ bcolors.ENDC
 print bcolors.BOLD+bcolors.OKGREEN + "[1]..........Install MetaSploit"+ bcolors.ENDC
 print bcolors.BOLD+bcolors.OKGREEN + "[0]..........Exit\n"+ bcolors.ENDC
