@@ -23,7 +23,7 @@ os.system("reset")
 os.system("pkg install git  ruby ruby-dev make clang autoconf curl wget ncurses-utils libsqlite-dev postgresql postgresql-dev libpcap-dev libffi-dev libxslt-dev pkg-config")
 os.system("reset")
 print bcolors.BOLD+bcolors.WARNING + "MetaSploit Installer Coded by @Andy_Brown\n"+ bcolors.ENDC
-print bcolors.BOLD+bcolors.OKGREEN + "[1]..........Install MetaSploit\n"+ bcolors.ENDC
+print bcolors.BOLD+bcolors.OKGREEN + "[1]..........Install MetaSploit"+ bcolors.ENDC
 print bcolors.BOLD+bcolors.OKGREEN + "[0]..........Exit\n"+ bcolors.ENDC
 ui=raw_input("Choose one Option :")
 if ui == '1':
@@ -33,9 +33,11 @@ if ui == '1':
 	os.system("chmod +x metasploit.sh")
 	os.system("./metasploit.sh")
 if ui == '0':
+	os.system("reset")
 	print bcolors.BOLD+bcolors.FAIL + "Coded by Andy Brown\nHave a good day ;)" +bcolors.ENDC
 	os.system("exit")
 else:
+	os.system("reset")
 	print bcolors.BOLD+bcolors.FAIL + "You have Two options Please type 1 or 0 \n" +bcolors.ENDC
 	os.system("exit")
 	
